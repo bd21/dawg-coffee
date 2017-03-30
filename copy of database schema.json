@@ -1,0 +1,34 @@
+{
+    "Employee": {
+      "Title": "Mr.",
+      "Name": "Mason Manager",
+      "DisplayName": "Mason",
+      "Active": true,
+      "PrimaryPhone": 2061111111,
+      "PrimaryEmailAddr": "mason@hotmail.com",
+      "EmployeeType": "Manager",
+      "Id": 1111,
+    },
+    "Customer": {
+      "FullName": "Mason",
+      "ID": "Mason",
+      "CC": "Mason",
+      "CurrentTab": 1,
+      "LifetimeSpent": "Mason"
+    },
+    "Stock": {
+      "Type": "Mason",
+      "Cost": "Mason",
+      "ResellValue": "Mason",
+      "Measurement": "Mason",
+      "SoldTonight": "Mason",
+      "UnitsLeft": 3
+    },
+    "Events": {
+      "Type": "Mason",
+      "Time": 2348,
+      "Date": 032917,
+      "CustomerID": 1234,
+      "Amount": 123
+    }
+}

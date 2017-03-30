@@ -1,0 +1,42 @@
+{
+  "ClaireCustomer": {
+    "Title": "Mrs",
+    "Name": "Claire Customer",
+    "DisplayName": "Claire",
+    "Active": "true",
+    "CurrentTab": "15.48",
+    "ID": "1112"
+  },
+  "CraigCustomer": {
+    "Title": "Mr",
+    "Name": "Craig Customer",
+    "DisplayName": "Craig",
+    "Active": "true",
+    "CurrentTab": "0.00",
+    "ID": "1113"
+  },
+  "ChloeCustomer": {
+    "Title": "Ms",
+    "Name": "Chloe Customer",
+    "DisplayName": "Chloe",
+    "Active": "true",
+    "CurrentTab": "123.45",
+    "ID": "1114"
+  },
+  "CadeCustomer": {
+    "Title": "Mr",
+    "Name": "Cade Customer",
+    "DisplayName": "Cade",
+    "Active": "false",
+    "CurrentTab": "0.00",
+    "ID": "1115"
+  },
+  "ChrisCustomer": {
+    "Title": "Mr",
+    "Name": "Chris Customer",
+    "DisplayName": "Chris",
+    "Active": "true",
+    "CurrentTab": "5.00",
+    "ID": "1116"
+  }
+}

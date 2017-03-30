@@ -1,1 +1,65 @@
-<!-- Your home page goes here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dawg Coffee</title>
+	<link rel="icon" href="img/page-icon.png">
+	<link type="text/css" rel="stylesheet" href="css/main.css"/>  
+
+	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAu9j58scwy45l3bxVwz2CxnK6ReWR5Dj0",
+	    authDomain: "getfastbar-56a65.firebaseapp.com",
+	    databaseURL: "https://getfastbar-56a65.firebaseio.com",
+	    storageBucket: "getfastbar-56a65.appspot.com",
+	    messagingSenderId: "207390260122"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<!-- Bootstrap VVV -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="root.js"></script>
+</head>
+
+
+
+<body>
+	<div ng-app="myApp" ng-controller="myCtrl">
+		<div>
+			Favorite word: <input type="text" ng-model="firstname" />
+			- {{firstname}}
+		</div>
+		<div>
+			Favorite color:
+			<input type="radio" name="fc" value="Red" ng-model="firstname">Red</input>
+			<input type="radio" name="fc" value="Green" ng-model="firstname">Green</input>
+			<input type="radio" name="fc" value="Yellow" ng-model="firstname">Yellow</input>
+			<input type="radio" name="fc" value="Blue" ng-model="firstname">Blue</input>
+			- {{firstname}}
+		</div>
+		<div>
+			Favorite shape:
+			<select ng-model="firstname">
+				<option value="Circle">Circle</option>
+				<option value="Triangle">Triangle</option>
+				<option value="Square">Square</option>
+			</select>
+			- {{firstname}}
+		</div>
+	</div>
+
+	
+
+</body>

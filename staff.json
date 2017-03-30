@@ -1,0 +1,58 @@
+{
+  "MasonManager": {
+    "Title": "Mr",
+    "Name": "Mason Manager",
+    "DisplayName": "Mason",
+    "Active": "true",
+    "EmployeeType": "Manager",
+    "ID": "1111"
+  },
+  "BradBartender": {
+    "Title": "Mr",
+    "Name": "Brad Bartender",
+    "DisplayName": "Brad",
+    "Active": "true",
+    "EmployeeType": "Bartender",
+    "ID": "2222"
+  },
+  "BeccaBartender": {
+    "Title": "Ms",
+    "Name": "Becca Bartender",
+    "DisplayName": "Rebecca",
+    "Active": "true",
+    "EmployeeType": "Bartender",
+    "ID": "3333"
+  },
+  "BlakeBartender": {
+    "Title": "Mr",
+    "Name": "Blake Bartender",
+    "DisplayName": "Blake",
+    "Active": "true",
+    "EmployeeType": "Bartender",
+    "ID": "4444"
+  },
+  "NotHereBartender": {
+    "Title": "Mr",
+    "Name": "NotHere Bartender",
+    "DisplayName": "Absent",
+    "Active": "false",
+    "EmployeeType": "Bartender",
+    "ID": "5555"
+  },
+  "SallyServer": {
+    "Title": "Mrs",
+    "Name": "Sally Server",
+    "DisplayName": "Sally",
+    "Active": "true",
+    "EmployeeType": "Server",
+    "ID": "6666"
+  },
+  "AbsentServer": {
+    "Title": "Mr",
+    "Name": "Absent Server",
+    "DisplayName": "Gone",
+    "Active": "false",
+    "EmployeeType": "Server",
+    "ID": "7777"
+  }
+}

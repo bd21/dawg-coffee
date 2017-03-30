@@ -1,0 +1,40 @@
+{
+  "Root": {
+    "Employee": {
+      "Title": {},
+      "FirstName": {},
+      "MiddleName": {},
+      "LastName": {},
+      "DisplayName": {},
+      "Active": {},
+      "PrimaryPhone": {},
+      "PrimaryEmailAddr": {},
+      "EmployeeType": {},
+      "status": {},
+      "Id": {},
+      "SyncToken": {}
+    },
+    "Customer": {
+      "FullName": {},
+      "ID": {},
+      "CC": {},
+      "CurrentTab": {},
+      "LifetimeSpent": {}
+    },
+    "Stock": {
+      "Type": {},
+      "Cost": {},
+      "ResellValue": {},
+      "Measurement": {},
+      "SoldTonight": {},
+      "AmountLeft": {}
+    },
+    "Events": {
+      "Type": {},
+      "Time": {},
+      "Date": {},
+      "CustomerID": {},
+      "Amount": {}
+    }
+  }
+}
